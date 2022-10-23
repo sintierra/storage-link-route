@@ -1,6 +1,7 @@
 {
     "name": "sintierra/storage-link-route",
     "description": "Crea una ruta para ejecutar storage:link | Creates a route to execute storage:link",
+    "license": "MIT",
     "authors": [
         {
             "name": "sintierra",
