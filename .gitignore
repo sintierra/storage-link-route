@@ -1,5 +1,5 @@
-vendor
+vendor/
 .phpunit.result.cache
 phpunit.xml
 composer.lock
-tests/coverage
+coverage/
