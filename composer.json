@@ -1,5 +1,37 @@
 {
+    "name": "sintierra/storage-link-route",
+    "description": "Crea una ruta para ejecutar storage:link | Creates a route to execute storage:link",
+    "authors": [
+        {
+            "name": "sintierra",
+            "email": "marcosditrana@gmail.com"
+        }
+    ],
+
+    "require": {
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Sintierra\\StorageLinkRoute\\": "src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Sintierra\\StorageLinkRoute\\Tests\\": "tests/"
+        }
+    },
+
     "require-dev": {
         "orchestra/testbench": "^7.11"
-    }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sintierra\\StorageLinkRoute\\StorageLinkRouteServiceProvider"
+            ]
+        }
+    } 
 }
