@@ -10,7 +10,7 @@ class StorageLinkController
     {
         //Verifies that storage exists in public path
         if($filesystem->exists(public_path('storage'))) {
-            return 'The "public/storage" already exists.'; 
+            return 'The public/storage directory already exists.'; 
         }
 
         //Links the storage_path of the app with public_path in folder
